@@ -21,3 +21,5 @@ console.log(isTrue.valueOf());
  * []
  * {}
  */
+
+let num = 3;

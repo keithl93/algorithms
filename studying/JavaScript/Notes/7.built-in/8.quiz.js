@@ -22,3 +22,13 @@ setInterval(() => {
   const now = new Date();
   console.log(now.toLocaleString('ko-KR'));
 }, 1000);
+
+let group = ['Rebekah', 'Keith', 'Sherilyn', 'Natalie'];
+
+function getRandomName() {
+  let randomIndex = Math.floor(Math.random() * group.length);
+  return group[randomIndex];
+}
+
+let randomName = getRandomName();
+console.log(randomName); // Outputs a random name from the array
