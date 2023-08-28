@@ -42,4 +42,4 @@ function getRandomName() {
 }
 
 let randomName = getRandomName();
-console.log(randomName); // Outputs a random name from the array
+console.log(randomName);
